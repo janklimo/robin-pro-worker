@@ -1,0 +1,5 @@
+name = "robin-pro-worker"
+main = "./src/index.ts"
+
+workers_dev = true
+compatibility_date = "2022-10-08"
