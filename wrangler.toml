@@ -2,6 +2,9 @@ main = "./src/index.ts"
 compatibility_date = "2022-10-08"
 workers_dev = true
 
+# Median CPU time is ~2ms so safely within the 50ms bundled worker limit
+usage_model = "bundled"
+
 # Staging
 # name = "s3-to-r2-staging"
 # Comment out in development, doesn't seem to work with it
